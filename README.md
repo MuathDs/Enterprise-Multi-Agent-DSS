@@ -1,24 +1,36 @@
-# Enterprise Multi-Agent Decision Support System (DSS)
+# Enterprise Intelligent Decision Support System (DSS) 🚀
+*Autonomous Multi-Agent Framework for Corporate Management*
 
-## 🚀 Overview
-This project demonstrates an advanced **Multi-Agent Orchestration** architecture designed for corporate environments. It utilizes a central **Orchestrator (Manager Agent)** to analyze user intent and dynamically route queries to specialized **Sub-Agents** (HR, Finance, and IT).
+### 📝 Overview
+This project is a high-performance **Intelligent Decision Support System (DSS)** built to streamline corporate operations. It employs a **Multi-Agent Architecture** to handle complex queries across various departments. By integrating **Retrieval-Augmented Generation (RAG)**, the system provides data-driven insights from verified corporate documents, ensuring accuracy and professional compliance.
 
-## 🏗️ System Architecture
-The system is built on a "Decoupled Logic" principle to ensure data security and operational efficiency:
-- **Orchestrator Node:** Acts as a router, classifying the input and managing the workflow.
-- **Specialized Agents:** Independent agents with specific system prompts and domain-focused knowledge.
-- **RAG Integration:** Each agent is designed to interact with its own isolated vector database (Retrieval-Augmented Generation).
+### 🤖 Core Agents (Synchronized with Code)
+The system orchestrates seven specialized agents to cover all organizational functions:
+1. **Finance Agent:** Budget analysis, Q1 allocations, and expenditure tracking.
+2. **HR Manager:** Recruitment plans, salary structures, and workforce optimization.
+3. **IT Security Expert:** Cyber-security protocols, Azure infrastructure, and encryption.
+4. **Legal Consultant:** Contract compliance, Saudi Labor Law (2026), and NDAs.
+5. **Operations Director:** Logistics, branch setup (e.g., Abha branch), and supply chain.
+6. **Sales Manager:** Market share analysis and regional sales targets.
+7. **Strategic CEO Agent:** High-level decision-making and corporate vision.
 
-## 🛠️ Tech Stack
-- **Engine:** Azure OpenAI (GPT-4o)
-- **Framework:** Streamlit (Frontend Interface)
-- **Orchestration:** Azure Foundry Workflows Logic
-- **Security:** Environment variable masking via `python-dotenv`
+### 🛠️ Technology Stack
+- **Frontend:** Streamlit (Python-based interactive UI).
+- **AI Brain:** Azure AI Foundry / OpenAI GPT-4o.
+- **Data Engine:** RAG (Retrieval-Augmented Generation) for document-grounded responses.
+- **Security:** Advanced Secrets Management for API protection.
 
-## 🔒 Security & Data Privacy
-**Note:** For confidentiality and compliance reasons, the internal datasets (CSV/PDF files) and API Credentials have been excluded from this repository. The code demonstrates the **Architectural Logic** and **Agent Mapping** rather than the raw data.
+### 📂 Project Structure & Consistency
+- `app.py`: The main engine containing the agent routing logic.
+- `requirements.txt`: Project dependencies (Streamlit, Pandas, etc.).
+- `.gitignore`: Critical security file to exclude `secrets.toml` from being leaked.
+- `.streamlit/secrets.toml`: (Local/Secure) Secure storage for Azure API keys.
 
-## 📁 Repository Structure
-- `app.py`: The core application and UI logic.
-- `requirements.txt`: Necessary dependencies to replicate the environment.
-- `.gitignore`: Ensures sensitive environment files are not exposed.
+### 🚀 Setup & Execution
+1. **Clone the repository.**
+2. **Install requirements:** `pip install -r requirements.txt`
+3. **Configure Secrets:** Add your Azure keys to `.streamlit/secrets.toml`.
+4. **Run App:** `streamlit run app.py`
+
+---
+*Enterprise Solutions - Decision Support Systems (DSS) © 2026*
