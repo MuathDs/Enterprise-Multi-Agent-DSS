@@ -1,0 +1,5 @@
+# DataMaster-DSS backend — every dependency here is imported by main.py
+fastapi
+uvicorn[standard]
+openai            # used by the Azure OpenAI generation path in main.py
+python-dotenv
